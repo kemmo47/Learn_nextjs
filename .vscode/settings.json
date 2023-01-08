@@ -4,12 +4,17 @@
   "search.exclude": {
     "package-lock.json": true
   },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
     "source.fixAll.eslint"
   ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
   "tailwindCSS.includeLanguages": {
     "plaintext": "javascript",
     "javascript": "javascript",
@@ -38,5 +43,5 @@
   "eslint.workingDirectories": [
     "."
   ],
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": true
 }
