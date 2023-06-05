@@ -4,33 +4,18 @@
   "search.exclude": {
     "package-lock.json": true
   },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
     "source.fixAll.eslint"
   ],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "javascript",
-    "javascript": "javascript",
-    "html": "HTML"
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "editor.quickSuggestions": {
-    "strings": true
-  },
   // Multiple language settings for json and jsonc files
   "[json][jsonc]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "task.allowAutomaticTasks": "on",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -43,5 +28,9 @@
   "eslint.workingDirectories": [
     "."
   ],
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "cSpell.words": [
+    "tailwindcss",
+    "webp"
+  ]
 }
