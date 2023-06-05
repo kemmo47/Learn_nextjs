@@ -9,7 +9,7 @@ export const Profile = () => {
 					src="/kemo.jpg"
 					alt="Profile Picture"
 				/>
-				<h2 className="text-xl font-bold mb-2">John Doe</h2>
+				<h2 className="text-xl font-bold mb-2">Hồ Ngọc Bảo Long</h2>
 				<p className="text-gray-600">Frontend Developer</p>
 				<ul className="mt-4">
 					<li>
