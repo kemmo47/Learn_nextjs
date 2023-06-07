@@ -11,6 +11,17 @@ export default function Home() {
 			</Head>
 			<div>
 				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
+				<Profile />
 			</div>
 		</>
 	)
