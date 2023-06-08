@@ -10,10 +10,12 @@ export default function Document() {
 				<Script strategy="beforeInteractive" id="OneSignal">
 					{`
             window.OneSignal = window.OneSignal || [];
-            OneSignal.push(function() {
-              OneSignal.init({
-                appId: "0c6e02bd-ad9d-4288-82be-b6b320b145f9",
-              });
+            OneSignal.initialize({
+              appId: '0c6e02bd-ad9d-4288-82be-b6b320b145f9',
+            }).then(function () {
+              OneSignal.push(['addListener', 'notificationPermission', function (permission) {
+                console.log('Permission:', permission);
+              }]);
             });
         `}
 				</Script>
