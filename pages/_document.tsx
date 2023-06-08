@@ -1,16 +1,15 @@
-import { Html, Main, NextScript } from "next/document"
-import Head from "next/head"
-import Script from "next/script"
+import { Head, Html, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
 	return (
 		<Html lang="en">
-      <Head>
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
-        <Script
-          id="show-banner"
-          dangerouslySetInnerHTML={{
-            __html: `
+			<Head>
+				<Script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer />
+				<Script
+					id="OneSignal"
+					dangerouslySetInnerHTML={{
+						__html: `
               window.OneSignal = window.OneSignal || [];
               OneSignal.push(function() {
                 OneSignal.init({
@@ -18,9 +17,9 @@ export default function Document() {
                 });
               });
             `,
-          }}
-        />
-      </Head>
+					}}
+				/>
+			</Head>
 			<body>
 				<Main />
 				<NextScript />

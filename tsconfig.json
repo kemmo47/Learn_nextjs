@@ -49,7 +49,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "public/OneSignalSDKWorker.js"
+    "**/*.tsx"
   ]
 }

@@ -69,8 +69,8 @@
             "argsIgnorePattern": "^_"
           }
         ],
-        "tailwindcss/no-custom-classname": "on", //this for config ignore warning when using *.module.css in components/
-        "tailwindcss/classnames-order": "on"
+        "tailwindcss/no-custom-classname": "off", //this for config ignore warning when using *.module.css in components/
+        "tailwindcss/classnames-order": "off"
       }
     }
   ]
