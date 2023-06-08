@@ -10,6 +10,7 @@ export default function Home() {
 				<link rel="icon" href="./favicon.ico" />
 			</Head>
 			<div>
+        <h1>My Profile</h1>
 				<Profile />
 				<Profile />
 				<Profile />
