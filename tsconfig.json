@@ -50,6 +50,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/OneSignalSDKWorker.js"
+    "public/OneSignalSDKWorker.js"
   ]
 }
