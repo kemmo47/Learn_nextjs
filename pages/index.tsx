@@ -1,8 +1,20 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 
 import { Profile } from '@/components/Profile'
+import { getMessagingToken, onMessageListener } from '@/utils/firebase'
 
 export default function Home() {
+	useEffect(() => {
+		getMessagingToken()
+	}, [])
+
+	useEffect(() => {
+		onMessageListener().then((data) => {
+			console.log('Receive foreground: ', data)
+		})
+	}, [])
+
 	return (
 		<>
 			<Head>
