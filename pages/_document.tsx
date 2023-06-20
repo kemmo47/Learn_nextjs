@@ -5,7 +5,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<Script strategy="afterInteractive" id="show-banner">
+				<Script strategy="afterInteractive" id="show-banner" type="module">
 					{`
             import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
             import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
