@@ -5,23 +5,15 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
+				<Script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" />
 				<Script strategy="afterInteractive" id="show-banner" type="module">
 					{`
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
-
-            const firebaseConfig = {
-              apiKey: "AIzaSyAF9gUXamrzAo5yAQ8TTOt5j-OVXGeKsU0",
-              authDomain: "learn-nextjs-375b2.firebaseapp.com",
-              projectId: "learn-nextjs-375b2",
-              storageBucket: "learn-nextjs-375b2.appspot.com",
-              messagingSenderId: "246783941907",
-              appId: "1:246783941907:web:cc56ffae4c9d381019cee6",
-              measurementId: "G-JY9NN5F8YY"
-            };
-
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
+            window.OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+              OneSignal.init({
+                appId: "0fd064f7-05f1-48ec-bf84-ce92c46ac572",
+              });
+            });
           `}
 				</Script>
 			</Head>
