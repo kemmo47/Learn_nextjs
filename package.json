@@ -21,6 +21,7 @@
     "isomorphic-dompurify": "^0.24.0",
     "next": "^12.3.0",
     "next-seo": "^5.5.0",
+    "onesignal-sdk": "^0.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

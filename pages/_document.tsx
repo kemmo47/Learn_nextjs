@@ -6,6 +6,7 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<Script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" strategy="beforeInteractive" />
+				<Script src="/OneSignalSDKWorker.js" strategy="beforeInteractive" />
 				<Script strategy="beforeInteractive" id="show-banner" type="module">
 					{`
             window.OneSignal = window.OneSignal || [];
