@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import GetToken from '@/components/GetToken'
 import { Profile } from '@/components/Profile'
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
 				<link rel="icon" href="./favicon.ico" />
 			</Head>
 			<div>
-				<h1>My Profile 33345</h1>
+				<h1>My Profile 3334566</h1>
+				<GetToken />
 				<Profile />
 				<Profile />
 				<Profile />
