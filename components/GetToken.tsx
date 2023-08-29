@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import messaging from '../utils/firebase-config'
+import messaging from '@/utils/firebase-config'
 
 const GetToken = () => {
 	useEffect(() => {

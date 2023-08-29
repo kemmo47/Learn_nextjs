@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel="icon" href="./favicon.ico" />
 			</Head>
 			<div>
-				<h1>My Profile 3334566</h1>
+				<h1>My Profile:</h1>
 				<GetToken />
 				<Profile />
 				<Profile />
