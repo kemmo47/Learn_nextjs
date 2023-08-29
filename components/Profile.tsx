@@ -1,6 +1,16 @@
+import { useRouter } from 'next/router'
 import React from 'react'
 
+import { useAuthContext } from './AuthContext'
+
 export const Profile = () => {
+	const user = useAuthContext()
+	const router = useRouter()
+
+	React.useEffect(() => {
+		if (user == null) router.push('/')
+	}, [user])
+
 	return (
 		<div className="flex items-center justify-center h-screen bg-gray-100">
 			<div className="bg-white p-8 rounded shadow-lg">
