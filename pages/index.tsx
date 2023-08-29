@@ -32,7 +32,7 @@ export default function Home() {
 				<link rel="icon" href="./favicon.ico" />
 			</Head>
 			<div>
-				<h1>My Profile:</h1>
+				<h1>My Profile: asd</h1>
 
 				<div className="wrapper">
 					<div className="form-wrapper">
