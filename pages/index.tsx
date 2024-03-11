@@ -16,8 +16,6 @@ export default function Home() {
 				<script src="https://engpush.takuhai-rental.com/assets/js/EngPushSDK.sw.js" defer></script>
 			</Head>
 			<div>
-				<h1>My Profile: asd 3333</h1>
-
 				<Profile />
 				<Profile />
 				<Profile />

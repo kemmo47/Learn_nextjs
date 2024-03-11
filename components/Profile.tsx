@@ -23,10 +23,10 @@ export const Profile = () => {
 				<p className="text-gray-600">Frontend Developer</p>
 				<ul className="mt-4">
 					<li>
-						<strong>Email:</strong> hongocbaolong.cv@gmail.com
+						<strong>Email:</strong> hongocbaolong.**@gmail.com
 					</li>
 					<li>
-						<strong>Phone:</strong> (088) 8066-681
+						<strong>Phone:</strong> (088) 8066-6**
 					</li>
 					<li>
 						<strong>Location:</strong> Đăk Lăk City
