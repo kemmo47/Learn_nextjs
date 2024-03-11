@@ -3,8 +3,6 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import { AuthContextProvider } from '@/components/AuthContext'
-
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
@@ -12,9 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta name="theme-color" content="#ffccdc" />
 			</Head>
-			<AuthContextProvider>
-				<Component {...pageProps} />
-			</AuthContextProvider>
+			<Component {...pageProps} />
 		</>
 	)
 }
