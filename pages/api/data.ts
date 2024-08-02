@@ -1,9 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next'
+import { NextApiResponse } from 'next'
 
-// pages/api/data.ts
-
-
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export default function handler(res: NextApiResponse) {
   const data = [
     { name: 'John', age: 25, id: 1 },
     { name: 'Jane', age: 30, id: 2 },
