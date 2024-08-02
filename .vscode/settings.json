@@ -32,5 +32,8 @@
   "cSpell.words": [
     "tailwindcss",
     "webp"
-  ]
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
