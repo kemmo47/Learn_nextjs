@@ -1,6 +1,6 @@
-import type { NextApiResponse } from 'next'
+import type { NextApiRequest, NextApiResponse } from 'next'
 
-export default function handler(res: NextApiResponse) {
+export default function handler(_req: NextApiRequest, res: NextApiResponse) {
 	const data = [
 		{ name: 'John', age: 25, id: 1 },
 		{ name: 'Jane', age: 30, id: 2 },
